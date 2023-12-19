@@ -31,6 +31,6 @@ if __name__ == '__main__':
 
     """ write to json file """
     with open(f"{USER_ID}.json", mode='w') as json_file:
-        json.dump(data, todo_response)
+        json.dump(data, json_file)
 
     print(f"Data as been exported to {USER_ID}.json")
