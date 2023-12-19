@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     """ write to csv file """
     with open(f"{USER_ID}.csv", mode='w') as csv_file:
-        writter = csv.writter(csv_file, quoting=csv.QUOTE_ALL)
+        writter = csv.writer(csv_file, quoting=csv.QUOTE_ALL)
 
         for task in todo_response:
             writter.writerow([
