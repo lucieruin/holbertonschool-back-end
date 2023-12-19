@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ using this REST API in CSV format"""
 
+import csv
 import requests
 from sys import argv
-import csv
 
 
 API_URL = 'https://jsonplaceholder.typicode.com'
